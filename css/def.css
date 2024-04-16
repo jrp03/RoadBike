@@ -24,18 +24,3 @@ a{
     --bg-header:#15153e;
     --bg-fondo:#161648;
 }
-
-
-.fondo {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    gap: 100px;
-    color: #fff;
-    box-shadow: inset 0 0 200px 0 #000;
-}
