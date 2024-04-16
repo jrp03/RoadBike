@@ -7,6 +7,7 @@
     <!-- css -->
     <link rel="stylesheet" href="css/def.css">
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
         
@@ -25,6 +26,20 @@
             <div class="r-c-banner">
                 <a href="">¡Lo Más Nuevo!</a>
             </div>
+            <div class="banner-footer">
+                <!-- <a href="">Sobre El sitio</a> -->
+                <div class="cards-banner">
+                    <a href="taller">
+                        taller de bici
+                    </a>
+                    <a href="coponentes">
+                        componentes
+                    </a>
+                    <a href="coponentes">
+                        sobre nosotros
+                    </a>
+                </div>
+            </div>
         </div>
 
         <mian class="main">
@@ -35,14 +50,6 @@
                 <div class="container">
                     <div></div>
                     <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
                 </div>
             </div>
         </mian>
@@ -51,6 +58,6 @@
    
 
     
-
+        <script src="js/script.js"></script>
 </body>
 </html>
