@@ -83,7 +83,8 @@
     border-radius: 10px;
     cursor: pointer;
 }
-.sucs:checked ~ .btm-suc {
+
+#sucs:checked ~ .btm-suc {
     display: flex;
 }
 .btm-suc{
@@ -175,10 +176,10 @@
 .cards-banner{
     display: flex;
     gap: 20px;
-    min-width: 400px;
+    min-width: 600px;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .cards-banner a{
     background-color: #ffffffd3;
@@ -191,9 +192,6 @@
 /* estilos del main */
 .main{
     background: rgb(0,0,0,0.6);
-    z-index: 800;
-    width: 100%;
-    position: absolute;
 }
 .main-container{
     max-width: var(--screen-max-width);
@@ -219,11 +217,44 @@ main{
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    /* grid-template-columns: 1fr 1fr; */
+    /* gap: 10px; */
+    padding: 20px;
+
+    /* display: grid; */
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    /* grid-auto-rows: minmax(100px, auto); */
 }
+
 
 .container > div{
     height: 100px;
     background-color: rgb(0,0,0,0.5);
+}
+
+.container-prin{
+    color: #fff;
+
+    grid-column: 1;
+    grid-row: 2 / 5;
+}
+
+
+/* estylos del footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #000;
+
+    
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }

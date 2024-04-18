@@ -63,17 +63,18 @@
     .log-as {
         display: flex;
         justify-content: space-between;
+        gap:20px;
     }
     .log-as input{
-        width: 49%;
+        width: 100%;
         border-radius: 40px;
         background: transparent;
         color: #fff;
-        font-size: 20px;
+        font-size: 17px;
         border: none;
         outline: none;
         border: 2px solid;
-        padding: 10px;
+        padding: 10px 20px;
     }
 
     .log-año input{
@@ -105,7 +106,15 @@
     font-weight: 600;
 }
 
-
+.log-bt {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.log-bt .secion-btn {
+    color: #fff;
+}
 .log-bt .bt{
     width: 100%;
     height:  45px;
@@ -124,4 +133,5 @@
 .texto p{
     padding: 10px;
     color: #fff;
+    text-align: center;
 }

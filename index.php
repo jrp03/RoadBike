@@ -42,19 +42,30 @@
             </div>
         </div>
 
-        <mian class="main">
+        <main class="main">
             <div class="main-content">
                 <section>
+                    <div>
 
+                    </div>
                 </section>
                 <div class="container">
-                    <div></div>
-                    <div></div>
+                    <div class="container-prin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo culpa totam, deserunt quibusdam facilis quidem placeat possimus dolorum? Obcaecati quod non similique minus vel doloremque repellendus sapiente repellat molestias officiis!</div>
+                    <div>b</div>
+                    <div>c</div>
+                    <div>d</div>
                 </div>
             </div>
-        </mian>
+        </main>
 
-    
+
+        <footer>
+            <div class="footer-content">
+                <div class="card-footer">
+
+                </div>
+            </div>
+        </footer>
    
 
     
