@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- css -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/def.css">
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
         
@@ -50,7 +51,43 @@
                     </div>
                 </section>
                 <div class="container">
-                    <div class="container-prin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo culpa totam, deserunt quibusdam facilis quidem placeat possimus dolorum? Obcaecati quod non similique minus vel doloremque repellendus sapiente repellat molestias officiis!</div>
+                    <div class="container-prin">
+                        <div class="main-container-slider">
+                            <div class="card-slider">
+                                <div class="card-header-slider">
+                                    <img src="recursos-img/bici-footer2.jpg" alt="">
+                                </div>
+                                <div class="card-info-slider">
+                                    <div>
+                                        <p>Productos para tu bicicleta</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-slider">
+                                <div class="card-header-slider">
+                                    <img src="recursos-img/bici-footer2.jpg" alt="">
+                                </div>
+                                <div class="card-info-slider">
+                                    <div>
+                                        <p>Productos para tu bicicleta</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-slider">
+                                <div class="card-header-slider">
+                                    <img src="recursos-img/bici-footer2.jpg" alt="">
+                                </div>
+                                <div class="card-info-slider">
+                                    <div>
+                                        <p>Productos para tu bicicleta</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div>b</div>
                     <div>c</div>
                     <div>d</div>
@@ -59,16 +96,12 @@
         </main>
 
 
-        <footer>
-            <div class="footer-content">
-                <div class="card-footer">
-
-                </div>
-            </div>
-        </footer>
+       <?php require_once "php/footer.php"; ?>
    
 
     
-        <script src="js/script.js"></script>
+        
+       <script src="js/jquery.js"></script>
+       <script src="js/script.js"></script>
 </body>
 </html>
