@@ -1,8 +1,11 @@
-var elejir = document.getElementById("elejir");
-var sucs = document.getElementsByClassName("sucs");
+$(document).ready(function(){
+        var slider = document.getElementsByClassName("main-container-slider");
+        var card = document.getElementsByClassName("card-slider");
 
-elejir.addEventListener("onclick", ()=>{
+        console.log(slider,card);
 
-        alert("ok");
-    
+        for(var c = 0; c < card.length; c++){
+
+        }
+        
 });
