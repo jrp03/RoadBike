@@ -1,11 +1,14 @@
-$(document).ready(function(){
-        var slider = document.getElementsByClassName("main-container-slider");
-        var card = document.getElementsByClassName("card-slider");
+// $(document).ready(()=>{
+//         var slider = $(".slider li");
 
-        console.log(slider,card);
+//         $(".slider li").hide();
+//         $(".slider li:first").show();
 
-        for(var c = 0; c < card.length; c++){
+//         function sliders(){
 
-        }
+//         }
         
-});
+//         setInterval(() => {
+//                 sliders();
+//         }, 2000);
+// });
