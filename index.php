@@ -55,12 +55,14 @@
                         <ul class="slider main-container-slider">
                             <li class="card-slider">
                                 <div class="card-header-slider">
-                                    <img src="" alt="">
+                                    <!-- <img src="r" alt=""> -->
                                 </div>
                                 <div class="card-info-slider">
-                                    <div>
-                                        <p>Productos para tu bicicleta</p>
-
+                                    <div class="card-info-img">
+                                        <img src="recursos-img/bici-footer2.jpg" alt="">
+                                    </div>
+                                    <div class="card-info-content">
+                                        <div>¡Bicicletas de Alta Gama recomendadas!</div>
                                     </div>
                                 </div>
                             </li>
@@ -70,27 +72,31 @@
                         <ul class="slider main-container-slider">
                             <li class="card-slider">
                                 <div class="card-header-slider">
-                                    <img src="" alt="">
+                                    <!-- <img src="r" alt=""> -->
                                 </div>
                                 <div class="card-info-slider">
-                                    <div>
-                                        <p>Productos para tu bicicleta</p>
-
+                                    <div class="card-info-img">
+                                        <img src="recursos-img/bici-footer2.jpg" alt="">
+                                    </div>
+                                    <div class="card-info-content">
+                                        <div>¡Bicicletas para la ciudad!</div>
                                     </div>
                                 </div>
                             </li>
                         </ul> 
                     </div>
                     <div class="container-prin-products">
-                        <ul class="slider main-container-slider">
+                         <ul class="slider main-container-slider">
                             <li class="card-slider">
                                 <div class="card-header-slider">
-                                    <img src="image" alt="">
+                                    <!-- <img src="r" alt=""> -->
                                 </div>
                                 <div class="card-info-slider">
-                                    <div>
-                                        <p>Productos para tu bicicleta</p>
-
+                                    <div class="card-info-img">
+                                        <img src="recursos-img/bici-footer2.jpg" alt="">
+                                    </div>
+                                    <div class="card-info-content">
+                                        <div>¡Bicicletas para montaña!</div>
                                     </div>
                                 </div>
                             </li>
@@ -98,8 +104,53 @@
                     </div>
                 </div>
 
-                <div class="card-main-public">
+                <div class="card-public-p">
+                    <div class="card-public-p-content-img">
+                        <img src="recursos-img/bici-electrica.jpg" alt="" srcset="">
+                    </div>
+                    <div class="card-public-p-content">
+                        <h2>Bicicletas Electricas</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum error non iure, tempore, cumque, corrupti exercitationem deserunt porro ipsa minima excepturi nostrum molestiae voluptas placeat ab. Facilis, aliquam non!</p>
+                    </div>
+                </div>
 
+                <div class="card-main-public">
+                    <div class="main-public-content">
+                        
+                        <div class="card-public">
+                            
+                            <div class="caard-public-banner">
+                                <img src="recursos-img/bici-footer2.jpg" alt="">
+                                </div>
+                            <div class="card-publid-content">
+                                <a href="">
+                                    <span>
+                                        Bicicleta 17 cambios
+                                    </span>
+                                    <span>
+                                        Precio
+                                    </span>
+                                    <span>
+                                        Click Para mas info
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-public"></div>
+                        <div class="card-public"></div>
+                        <div class="card-public"></div>
+                        <div class="card-public"></div>
+                        <div class="card-public"></div>
+                        <div class="card-public"></div>
+                        <div class="card-public"></div>
+                        <div class="card-public"></div>
+                        <div class="card-public"></div>
+                        <div class="card-public"></div>
+                        <div class="card-public"></div>
+                        <div class="card-public"></div>
+                        
+                    </div>
                 </div>
 
                 <section id="componentes" class="title">
@@ -184,7 +235,7 @@
                                 </div>
                                 <div class="card-info-slider">
                                     <div>
-                                        <p>Productos para tu bicicleta</p>
+                                        <p>Mi citas</p>
                                     </div>
                                 </div>
                             </li>
@@ -198,7 +249,7 @@
                                 </div>
                                 <div class="card-info-slider">
                                     <div>
-                                        <p>Productos para tu bicicleta</p>
+                                        <p>agendar cita</p>
 
                                     </div>
                                 </div>
