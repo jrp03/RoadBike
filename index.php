@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon/icon.ico" type="image/x-icon">
     <title>Document</title>
     <!-- css -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/def.css">
     <link rel="stylesheet" href="css/style.css">
@@ -123,10 +123,10 @@
                                 <img src="recursos-img/bici-footer2.jpg" alt="">
                                 </div>
                             <div class="card-publid-content">
-                                <a href="">
-                                    <span>
+                                <a href="articulo.php">
+                                    <h3 class="title">
                                         Bicicleta 17 cambios
-                                    </span>
+                                    </h3>
                                     <span>
                                         Precio
                                     </span>
@@ -137,18 +137,122 @@
                             </div>
                         </div>
 
-                        <div class="card-public"></div>
-                        <div class="card-public"></div>
-                        <div class="card-public"></div>
-                        <div class="card-public"></div>
-                        <div class="card-public"></div>
-                        <div class="card-public"></div>
-                        <div class="card-public"></div>
-                        <div class="card-public"></div>
-                        <div class="card-public"></div>
-                        <div class="card-public"></div>
-                        <div class="card-public"></div>
-                        <div class="card-public"></div>
+                        <div class="card-public">
+                            
+                            <div class="caard-public-banner">
+                                <img src="recursos-img/bici-footer2.jpg" alt="">
+                                </div>
+                            <div class="card-publid-content">
+                                <a href="">
+                                    <h3 class="title">
+                                        Bicicleta 17 cambios
+                                    </h3>
+                                    <span>
+                                        Precio
+                                    </span>
+                                    <span>
+                                        Click Para mas info
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-public">
+                            
+                            <div class="caard-public-banner">
+                                <img src="recursos-img/bici-footer2.jpg" alt="">
+                                </div>
+                            <div class="card-publid-content">
+                                <a href="">
+                                    <h3 class="title">
+                                        Bicicleta 17 cambios
+                                    </h3>
+                                    <span>
+                                        Precio
+                                    </span>
+                                    <span>
+                                        Click Para mas info
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-public">
+                            
+                            <div class="caard-public-banner">
+                                <img src="recursos-img/bici-footer2.jpg" alt="">
+                                </div>
+                            <div class="card-publid-content">
+                                <a href="">
+                                    <h3 class="title">
+                                        Bicicleta 17 cambios
+                                    </h3>
+                                    <span>
+                                        Precio
+                                    </span>
+                                    <span>
+                                        Click Para mas info
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-public">
+                            
+                            <div class="caard-public-banner">
+                                <img src="recursos-img/bici-footer2.jpg" alt="">
+                                </div>
+                            <div class="card-publid-content">
+                                <a href="">
+                                    <h3 class="title">
+                                        Bicicleta 17 cambios
+                                    </h3>
+                                    <span>
+                                        Precio
+                                    </span>
+                                    <span>
+                                        Click Para mas info
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-public">
+                            
+                            <div class="caard-public-banner">
+                                <img src="recursos-img/bici-footer2.jpg" alt="">
+                                </div>
+                            <div class="card-publid-content">
+                                <a href="">
+                                    <h3 class="title">
+                                        Bicicleta 17 cambios
+                                    </h3>
+                                    <span>
+                                        Precio
+                                    </span>
+                                    <span>
+                                        Click Para mas info
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-public">
+                            
+                            <div class="caard-public-banner">
+                                <img src="recursos-img/bici-footer2.jpg" alt="">
+                                </div>
+                            <div class="card-publid-content">
+                                <a href="">
+                                    <h3 class="title">
+                                        Bicicleta 17 cambios
+                                    </h3>
+                                    <span>
+                                        Precio
+                                    </span>
+                                    <span>
+                                        Click Para mas info
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
                         
                     </div>
                 </div>
@@ -158,8 +262,6 @@
                     <p>Algunos productos que podrian interesarte para tu bisicleta</p>
                 </section>
                 <div class="container">
-
-
                     <div class="container-prin-products">
                         <ul class="slider main-container-slider">
                             <li class="card-slider">
@@ -204,6 +306,149 @@
                                 </div>
                             </li>
                         </ul> 
+                    </div>
+                </div>
+
+                <div class="card-main-public">
+                    <div class="main-public-content">
+                        
+                        <div class="card-public">
+                            
+                            <div class="caard-public-banner">
+                                <img src="recursos-img/bici-footer2.jpg" alt="">
+                                </div>
+                            <div class="card-publid-content">
+                                <a href="">
+                                    <h3 class="title">
+                                        Bicicleta 17 cambios
+                                    </h3>
+                                    <span>
+                                        Precio
+                                    </span>
+                                    <span>
+                                        Click Para mas info
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-public">
+                            
+                            <div class="caard-public-banner">
+                                <img src="recursos-img/bici-footer2.jpg" alt="">
+                                </div>
+                            <div class="card-publid-content">
+                                <a href="">
+                                    <h3 class="title">
+                                        Bicicleta 17 cambios
+                                    </h3>
+                                    <span>
+                                        Precio
+                                    </span>
+                                    <span>
+                                        Click Para mas info
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-public">
+                            
+                            <div class="caard-public-banner">
+                                <img src="recursos-img/bici-footer2.jpg" alt="">
+                                </div>
+                            <div class="card-publid-content">
+                                <a href="">
+                                    <h3 class="title">
+                                        Bicicleta 17 cambios
+                                    </h3>
+                                    <span>
+                                        Precio
+                                    </span>
+                                    <span>
+                                        Click Para mas info
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-public">
+                            
+                            <div class="caard-public-banner">
+                                <img src="recursos-img/bici-footer2.jpg" alt="">
+                                </div>
+                            <div class="card-publid-content">
+                                <a href="">
+                                    <h3 class="title">
+                                        Bicicleta 17 cambios
+                                    </h3>
+                                    <span>
+                                        Precio
+                                    </span>
+                                    <span>
+                                        Click Para mas info
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-public">
+                            
+                            <div class="caard-public-banner">
+                                <img src="recursos-img/bici-footer2.jpg" alt="">
+                                </div>
+                            <div class="card-publid-content">
+                                <a href="">
+                                    <h3 class="title">
+                                        Bicicleta 17 cambios
+                                    </h3>
+                                    <span>
+                                        Precio
+                                    </span>
+                                    <span>
+                                        Click Para mas info
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-public">
+                            
+                            <div class="caard-public-banner">
+                                <img src="recursos-img/bici-footer2.jpg" alt="">
+                                </div>
+                            <div class="card-publid-content">
+                                <a href="">
+                                    <h3 class="title">
+                                        Bicicleta 17 cambios
+                                    </h3>
+                                    <span>
+                                        Precio
+                                    </span>
+                                    <span>
+                                        Click Para mas info
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-public">
+                            
+                            <div class="caard-public-banner">
+                                <img src="recursos-img/bici-footer2.jpg" alt="">
+                                </div>
+                            <div class="card-publid-content">
+                                <a href="">
+                                    <h3 class="title">
+                                        Bicicleta 17 cambios
+                                    </h3>
+                                    <span>
+                                        Precio
+                                    </span>
+                                    <span>
+                                        Click Para mas info
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        
                     </div>
                 </div>
 
@@ -264,7 +509,8 @@
             <div class="info-container">
                 <div class="card-info">
                     <section class="title" id="">
-                        <h1 style="font-weight:bolder;font-size:50px;">Road Bike</h1>
+                        <img src="icon/icon.jpg" alt="">
+                        <!-- <h1 style="font-weight:bolder;font-size:50px;">Road Bike</h1> -->
                         
                     </section>
                     <section class="title" id="">

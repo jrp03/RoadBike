@@ -1,12 +1,14 @@
 <header class="header-container">
     <header class="header">
        <div class="logo">
+            <img src="icon/icon.jpg" alt="">
             <a href="#">RoadBike</a>
        </div>
        <div class="nav">
             <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Pedidos</a></li>
+
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="#">Pedidos</a></li>
                 <li><a href="login.php">Inicia Seción</a></li>
                 <li><a href="registrarse.php">Registrar</a></li>
             </ul>
