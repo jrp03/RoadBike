@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/agenda.css">
+    <title>Cita</title>
+    
+</head>
+<body>
+<div class="fondo">
+
+
+    <div class="agenda">
+        <div class="tipo">
+            <form action="POST">
+            <h1>Datos del contacto</h1>
+            <p>ficha de pedido</p>
+            <div class="Nombres">
+            <form action="POST"><label>Nombres </label>
+            <br>
+            <input type="text" required> 
+            </form>
+        </div>
+        
+        <div class="Apellidos">
+            <form action="POST">
+            <label>Apellidos</label>
+            <br>
+            <input type="text" required> 
+            </form>
+             </div>
+            <div class="celular">
+            <form action="POST">
+            <label>Numero celular</label>
+            <br>
+            <input type="text" required>
+            </form> 
+            </div>
+
+            <div class="recibir">
+            <form action="">
+            <label>¿quien va recibir el paquete?</label>
+            <br>
+            <input type="text" required> 
+            </form>
+        </div>
+
+        <div class="entrega">
+        <h2>Datos de entrega</h2>
+       <form action=""></form> <label>fecha en cual hizo el pedido</label>
+        <br>
+        <input type="date" required> 
+        </form>
+        </div>
+
+        <label>Modo de entrega</label>
+        <form action="/submit-form" method="post">
+        <label for="ubicacion">Ubicación:</label>
+        <select id="ubicacion" name="ubicacion">
+            <option value="Ciudad de México">Ciudad de México</option>
+            <option value="Guadalajara">Guadalajara</option>
+            <option value="Monterrey">Monterrey</option>
+            <option value="Puebla">Puebla</option>
+            <option value="Sinaloa">Sinaloa</option>
+            <option value="Quintanaroo">Quintanaroo</option>
+            <option value="Oaxaca">Oaxaca</option>
+          
+        </select>
+        <br><br>
+        <div class="hora">
+        <form action="/submit-form" method="post">
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" required>
+            <br><br>
+        </form>
+         </div>
+        <div class="pago"></div>
+        <h3>Formulario de pago de paypal</h3>
+    
+        <div class="Nombre-pago">
+        <form action="POST">
+            <label>Nombre completo</label>
+            <br>
+            <input type="text" required placeholder="Nombres"> <input type="text" required placeholder="Apellidos"> 
+        </form>
+        </div>
+
+        <div class="correo-as">
+            <form class="emailForm" action="/submit-form" method="post" onsubmit="return validateEmails()">
+                <label for="email1">Correo Electrónico:</label>
+                <input type="email" class="email1" name="email1" required><br><br>
+        
+                <label for="email2">Confirmar Correo Electrónico:</label>
+                <input type="email" class="email2" name="email2" required><br>
+                <span class="emailError" class="error-message"></span><br><br>
+
+        </div>
+        <div>
+
+            <form class="phoneForm" action="/submit-form" method="post" onsubmit="return validatePhone()">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" class="telefono" name="telefono" pattern="[0-9]{10}" required
+                       title="Ingresa un número de teléfono de 10 dígitos">
+                <span id="phoneError" class="error-mensaje"></span><br><br>
+        
+            </form>
+        
+            <script>
+                function validatePhone() {
+                    var phoneInput = document.getElementById('telefono');
+                    var phoneError = document.getElementById('phoneError');
+                    var phoneNumber = phoneInput.value;
+        
+                    // Verificar si la longitud del número de teléfono es exactamente 10 dígitos
+                    if (phoneNumber.length !== 10 || isNaN(phoneNumber)) {
+                        phoneError.textContent = 'Ingresa un número de teléfono válido (10 dígitos numéricos)';
+                        return false; // Evita que el formulario se envíe
+                    } else {
+                        phoneError.textContent = ''; // Borra cualquier mensaje de error previo
+                        return true; // Permite que el formulario se envíe
+                    }
+                }
+            </script>
+        </div>
+        <div class="paypal">
+            <form id="creditCardForm" action="/submit-form" method="post" onsubmit="return validateCreditCard()">
+                <label for="numeroTarjeta">Número de Tarjeta:</label>
+                <input type="text" id="numeroTarjeta" name="numeroTarjeta" pattern="[0-9]{16}" maxlength="16" required>
+                <br><br>
+        
+                <label for="fechaExpiracion">Fecha de Expiración (MM/AA):</label>
+                <input type="text" id="fechaExpiracion" name="fechaExpiracion" placeholder="MM/AA" pattern="^(0[1-9]|1[0-2])\/\d{2}$" required>
+                <br><br>
+        
+                <label for="codigoSeguridad">Código de Seguridad (CVV/CVC):</label>
+                <input type="text" id="codigoSeguridad" name="codigoSeguridad" pattern="[0-9]{3,4}" maxlength="4" required>
+                <br><br>
+        
+            </form>
+        
+            <script>
+                function validateCreditCard() {
+                    var cardNumber = document.getElementById('numeroTarjeta').value;
+                    var expirationDate = document.getElementById('fechaExpiracion').value;
+                    var securityCode = document.getElementById('codigoSeguridad').value;
+                    var cardNumberError = document.getElementById('cardNumberError');
+        
+                    if (cardNumber.length !== 16 || isNaN(cardNumber)) {
+                        alert('Por favor ingresa los 16 numero de su tarjeta');
+                        return false; 
+                    }
+        
+                    if (!expirationDate.match(/^(0[1-9]|1[0-2])\/\d{2}$/)) {
+                        alert('Por favor ingresa una fecha de expiración válida en el formato MM/AA');
+                        return false; 
+                    }
+        
+                    if (!securityCode.match(/^[0-9]{3,4}$/)) {
+                        alert('Por favor ingresa un código de seguridad válido (3 o 4 dígitos numéricos)');
+                        return false; 
+                    }
+        
+                    return true; 
+                }
+            </script>
+        
+        </div>
+
+        <input type="submit" value="Enviar">
+        
+        
+
+    </div>
+    </form>
+</div>
+</body>
+</html>

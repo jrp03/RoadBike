@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat, "poppins", sans-serif;
+}
+.banner{
+    height: 100vh;
+}
+
+.log{
+    max-width: 500px;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 grey;
+    padding:15px;
+    
+    gap: 10px;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+}
+
+    .log-in h1{
+    font-size: 36px;
+    text-align: center;
+    margin: 10px;
+    bottom: 20px;
+    }
+    
+    .log-in{
+        position: relative;
+        width: 100%;
+        height: 25%;
+        margin: 30px 0;
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .log-in input{
+        width: 100%;
+        height: 30%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid #5e595e;
+        border-radius: 40px;
+        font-size: 16px;
+        color: #ffffff;
+        padding: 20px 45px 20px 20px;
+    }
+    .log-as {
+        display: flex;
+        justify-content: space-between;
+        gap:20px;
+    }
+    .log-as input{
+        width: 100%;
+        border-radius: 40px;
+        background: transparent;
+        color: #fff;
+        font-size: 17px;
+        border: none;
+        outline: none;
+        border: 2px solid;
+        padding: 10px 20px;
+    }
+
+    .log-año input{
+    font-size: 20px;
+    text-align: center;
+    background: transparent;
+    color: #fff;
+    margin: 20px;
+    width: 42%; /* Ocupar todo el ancho disponible */
+    box-sizing:border-box;
+    }
+
+    .log-año p{
+        position: relative;
+        transform: translate(50%, -220%);
+        color:#fff ;
+    right: 10px;
+    }
+
+.sexo {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #222022;
+    margin: 20px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.log-bt {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.log-bt .secion-btn {
+    color: #fff;
+}
+.log-bt .bt{
+    width: 100%;
+    height:  45px;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #222022;
+    cursor: pointer;
+    font-size: 16px;
+    color: #5e595e;
+    font-weight: 600;
+}
+.log-bt .bt:hover{
+    background-color: rgb(0,0,0,0.1);
+}
+
+
+    .log .log-inicio a {
+        text-align: center;
+        color: #ffffff; 
+        font-size: 14.5px;
+        text-decoration: underline;
+    }
+        .log .log-inicio {
+            text-align: center;
+}
+
+.texto p{
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+

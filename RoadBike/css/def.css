@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+:root{
+    --mg-auto:auto;
+
+    --screen-min-width: 500px;
+    --screen-max-width: 1200px;
+    --width-max-:100%;
+
+    --bg-background-color: #fff;
+
+    --bg-primary:green;
+    --bg-secondary:green;
+
+
+    --bg-header:#15153e;
+    --bg-fondo:#161648;
+}
