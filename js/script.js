@@ -1,8 +1,14 @@
-var elejir = document.getElementById("elejir");
-var sucs = document.getElementsByClassName("sucs");
+// $(document).ready(()=>{
+//         var slider = $(".slider li");
 
-elejir.addEventListener("onclick", ()=>{
+//         $(".slider li").hide();
+//         $(".slider li:first").show();
 
-        alert("ok");
-    
-});
+//         function sliders(){
+
+//         }
+        
+//         setInterval(() => {
+//                 sliders();
+//         }, 2000);
+// });
