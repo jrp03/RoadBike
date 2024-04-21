@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    text-align: center;
+}
+
+
+.fondo {
+    width: 100%; 
+    height: 100vh;
+    background-image: url('recursos-img/bici-footer3.jpg');
+    background-size: cover; 
+    background-position: center;
+}
+
+
+.agenda {
+    width: 80%; 
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px 40px;
+    backdrop-filter: blur(10px); 
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 grey;
+}
+
+
+.agenda h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+
+.agenda .tipo {
+    margin: 45px 0;
+}
+
+
+.agenda input {
+    width: 100%; 
+    color: rgb(0, 0, 0);
+    padding: 15px; 
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 grey;
+}
+
+
+.tipo p {
+    font-size: 26px;
+    line-height: 1.5;
+}
+
+
+.tipo label {
+    font-size: 26px;
+    line-height: 1.5;
+}
+

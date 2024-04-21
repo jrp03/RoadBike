@@ -9,6 +9,7 @@
                 <li><a href="">Pedidos</a></li>
                 <li><a href="login.php">Inicia Seción</a></li>
                 <li><a href="registrarse.php">Registrar</a></li>
+                <li><a href="agenda.html">agenda</a></li>
             </ul>
        </div>
     </header>

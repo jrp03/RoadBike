@@ -46,8 +46,9 @@
         </div>
         <div class="log-bt">
             <button type="submit" class="bt"> registrarme</button>
-            <a class="secion-btn" href="">Iniciar Cecion</a>
+            <a class="secion-btn" href="">Iniciar sesion</a>
         </div>
+       
         <div class="texto">
             
             <p> Es posible que personas que personas que usan nuestro servicio hayan subido tu informacion, al dar click en "registrarme" aceptas nuestras politicas. </p>
