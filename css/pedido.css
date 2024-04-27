@@ -20,14 +20,15 @@
     display: flex;
     flex-direction: column;
     border-right: 1px solid #ddd;
+    height: 600px;
 }
 .form-card{
-
+    height: 600px;
     display: flex;
     flex-direction: row;
     display: grid;
     grid-template-columns: 1fr auto;
-    flex: 1;
+    /* flex: 1; */
 }
 .productos{
     display: flex;
@@ -102,11 +103,13 @@
     /* background: #3b6ce5; */
     display: flex;
     flex-direction: column;
+    height: 600px;
 }
 .form-content{
     display: flex;
     flex-direction: column;
     flex: 1;
+    height: 600px;
 }
 
 .form-content .card-title{
@@ -116,6 +119,7 @@
     display: flex;
     flex-direction: column;
     flex: 1;
+    overflow: auto;
 }
 
 .form-contact {
@@ -125,6 +129,7 @@
     padding: 20px;
     color: #fff;
     gap: 10px;
+    overflow-y: scroll;
 }
 .bx-1{
     display: flex;
