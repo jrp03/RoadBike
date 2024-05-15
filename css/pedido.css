@@ -1,0 +1,191 @@
+.main{
+    background: none;
+    box-shadow: none;
+    padding: 20px;
+}
+.card-form{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    /* height: 600px; */
+    border-radius: 10px ;
+    box-shadow: 0 0 200spx 0 #333;
+    overflow: hidden;
+}
+.card-title{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.form-left{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ddd;
+    height: 600px;
+}
+.form-card{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    /* flex: 1; */
+}
+.productos{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ddd;
+    flex: 1;
+    overflow-y: scroll;
+    border-bottom: 1px solid #ddd;
+}
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.box-product{
+    display: flex;
+    flex-direction: column;
+    /* height: 100px; */
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.box-product-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box-prodcut-content{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.box-prodcut-content .img img{
+    display: flex;
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #333;
+    object-fit: cover;
+}
+.box-prodcut-content .box-product-info .box-product-title{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.box-product-price{
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    color: green;
+}
+
+
+
+.form-banner-total{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    display: flex;
+}
+
+.form-banner-total tr td{
+    font-size: 20px;
+    justify-content: end;
+    font-weight: 600;
+}
+
+.form-rigth{
+    background: linear-gradient(130deg,#cda76b 0%, #907243 35%, #503e21 100%);
+    /* background: #3b6ce5; */
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+.form-content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 600px;
+}
+
+.form-content .card-title{
+    color: #fff;
+}
+.form-content form{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: auto;
+}
+
+.form-contact {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+    color: #fff;
+    gap: 10px;
+    overflow-y: scroll;
+}
+.bx-1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bx-2{
+    display: flex;
+    gap: 10px;
+}
+
+.form-contact p{
+    font-weight: bold;
+}
+.form-contact input{
+    width: auto;
+    padding: 10px;
+    background:rgb(0,0,0,0.3);
+    border: none;
+    box-shadow: 0 0 10px 0 grey;
+    border-radius: 10px;
+    color: #fff;
+
+    font-size: 18px;
+}
+
+.form-banner-total input{
+    display: block;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 10px;
+}
+.bx-2 textarea{
+    width: auto;
+    padding: 10px;
+    background:rgb(0,0,0,0.3);
+    border: none;
+    box-shadow: 0 0 10px 0 grey;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    width: 100%;
+    height: 100px;
+}
+
+.bx-2 input{
+    display: flex;
+    width: 100%;
+}
+
+.form-banner-total .btn-pagar{
+    display: block;
+    color: #fff;
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 10px;
+}

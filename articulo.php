@@ -1,3 +1,6 @@
+<?php
+    $page_section = "carrito.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -62,7 +65,7 @@
                             </table>
                         </div>
                         <div class="panel-articulo-footer">
-                            <a href="" class="btn-comprar">Comprar</a>
+                            <a href="pedido.html" class="btn-comprar">Comprar</a>
                             <img src="recursos-img/pagos.jpg" alt="" width="100px">
                         </div>
                     </div>

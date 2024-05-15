@@ -7,7 +7,9 @@
 .banner{
     height: 100vh;
 }
-
+.registro{
+    background-color: #222022;
+}
 .log{
     max-width: 500px;
     width: 100%;

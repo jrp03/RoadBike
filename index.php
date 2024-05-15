@@ -1,3 +1,6 @@
+<?php
+    $page_section = "index.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
