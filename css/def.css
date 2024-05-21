@@ -25,3 +25,20 @@ a{
     --bg-fondo:#161648;
 }
 
+
+
+.btn-orange{
+    padding: 10px;
+    display: flex;
+    background:#ff6f33;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.btn-green{
+    display: flex;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    background:green;
+}
