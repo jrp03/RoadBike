@@ -31,134 +31,7 @@
                         </div>
                         
                         <div class="productos">
-                        
-                                <div class="box-product">
-                                    <div class="box-prodcut-content">
-                                        <div class="img">
-                                            <img src="recursos-img/bici-electrica.jpg" alt="">
-                                        </div>
-                                        <div class="box-product-info">
-                                            <div class="box-product-title">
-                                                Bisicleta
-                                            </div>
-                                            <div class="box-product-title">
-                                                Marca mercurio
-                                            </div>
-                                            <div class="box-product-descr">
-                                                color: blanco, tamaño 120cm x 50cm
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="box-product-price">
-                                        $1,250
-                                    </div>
-                                </div>
-                                <div class="box-product">
-                                    <div class="box-prodcut-content">
-                                        <div class="img">
-                                            <img src="recursos-img/bici-electrica.jpg" alt="">
-                                        </div>
-                                        <div class="box-product-info">
-                                            <div class="box-product-title">
-                                                Bisicleta
-                                            </div>
-                                            <div class="box-product-title">
-                                                Marca mercurio
-                                            </div>
-                                            <div class="box-product-descr">
-                                                color: blanco, tamaño 120cm x 50cm
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="box-product-price">
-                                        $1,250
-                                    </div>
-                                </div>
-                                <div class="box-product">
-                                    <div class="box-prodcut-content">
-                                        <div class="img">
-                                            <img src="recursos-img/bici-electrica.jpg" alt="">
-                                        </div>
-                                        <div class="box-product-info">
-                                            <div class="box-product-title">
-                                                Bisicleta
-                                            </div>
-                                            <div class="box-product-title">
-                                                Marca mercurio
-                                            </div>
-                                            <div class="box-product-descr">
-                                                color: blanco, tamaño 120cm x 50cm
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="box-product-price">
-                                        $1,250
-                                    </div>
-                                </div>
-                                <div class="box-product">
-                                    <div class="box-prodcut-content">
-                                        <div class="img">
-                                            <img src="recursos-img/bici-electrica.jpg" alt="">
-                                        </div>
-                                        <div class="box-product-info">
-                                            <div class="box-product-title">
-                                                Bisicleta
-                                            </div>
-                                            <div class="box-product-title">
-                                                Marca mercurio
-                                            </div>
-                                            <div class="box-product-descr">
-                                                color: blanco, tamaño 120cm x 50cm
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="box-product-price">
-                                        $1,250
-                                    </div>
-                                </div>
-                                <div class="box-product">
-                                    <div class="box-prodcut-content">
-                                        <div class="img">
-                                            <img src="recursos-img/bici-electrica.jpg" alt="">
-                                        </div>
-                                        <div class="box-product-info">
-                                            <div class="box-product-title">
-                                                Bisicleta
-                                            </div>
-                                            <div class="box-product-title">
-                                                Marca mercurio
-                                            </div>
-                                            <div class="box-product-descr">
-                                                color: blanco, tamaño 120cm x 50cm
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="box-product-price">
-                                        $1,250
-                                    </div>
-                                </div>
-                                <div class="box-product">
-                                    <div class="box-prodcut-content">
-                                        <div class="img">
-                                            <img src="recursos-img/bici-electrica.jpg" alt="">
-                                        </div>
-                                        <div class="box-product-info">
-                                            <div class="box-product-title">
-                                                Bisicleta
-                                            </div>
-                                            <div class="box-product-title">
-                                                Marca mercurio
-                                            </div>
-                                            <div class="box-product-descr">
-                                                color: blanco, tamaño 120cm x 50cm
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="box-product-price">
-                                        $1,250
-                                    </div>
-                                </div>
-
+                                
                                 <div class="box-product">
                                     <div class="box-prodcut-content">
                                         <div class="img">
@@ -247,6 +120,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                <p>Al concluir con la compra se te enviara un codigo de rastreo. <br> un codigo qr con el que pasaras a la sucursal para recojer</p>
                                 <div class="form-banner-total">
                                     <input type="submit" value="Comprar">
                                 </div>
