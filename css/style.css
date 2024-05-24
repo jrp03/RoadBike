@@ -106,6 +106,7 @@
     position: absolute;
     height: 90%;
     object-fit: contain;
+    padding: 10px;
   }
 
 .cards-banner a p{
@@ -117,6 +118,19 @@
 .main{
     /* background: rgb(0,0,0,0.84); */
     padding: 100px 0 ;
+}
+.main-principal{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.box-title{
+    padding: 0px 0px 50px 0;
+    align-items: center;
+}
+.box-title h1{
+    font-size: 40px;
+    text-align: center;
 }
 .main-container{
     max-width: var(--screen-max-width);
@@ -132,7 +146,8 @@
 /* main */
 main{
     /* box-shadow: 0 0 100px 0 #000; */
-    background-color: #fff;
+    background-color: #252b36;
+    color: #fff;
 }
 .main-content {
     max-width: var(--screen-max-width);
@@ -193,7 +208,7 @@ main{
 
 
 .content-title-b{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
 }
 .box-left{
@@ -212,7 +227,7 @@ main{
     font-size: 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
 }
 
 
@@ -232,6 +247,7 @@ main{
     padding: 0 0 10px 0;
     overflow: hidden;
     cursor: pointer;
+    width: 250px;
 }
 .main-show-box img {
     width: 250px;

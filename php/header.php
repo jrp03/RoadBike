@@ -2,7 +2,7 @@
     <header class="header">
        <div class="logo">
             <img src="icon/icon.jpg" alt="">
-            <a href="#">RoadBike</a>
+            <a href="index.php">RoadBike</a>
        </div>
        <div class="nav">
             <ul>
@@ -23,6 +23,34 @@
                             }?>
                         href="carrito.php">
                         Carrito
+                    </a>
+                </li>
+                <li>
+                    <a      <?php 
+                                if($page_section == "rastrear.php"){ 
+                                    echo "class='active'"; 
+                            }?>
+                            href="rastrear.php">
+                                Rastrear Pedidos
+                    </a>
+                </li>
+                <li>
+                        <a      <?php 
+                                    if($page_section == "miscompras.php"){ 
+                                        echo "class='active'"; 
+                                }?>
+                                href="index.php">
+                                    Mis Compras
+                        </a>
+                </li>
+                <li>
+                    <a 
+                    <?php 
+                            if($page_section == "taller.php"){ 
+                                    echo "class='active'"; 
+                            }?>
+                        href="taller.php">
+                        Taller
                     </a>
                 </li>
                 <li>

@@ -21,75 +21,36 @@
 
     
 
-        <div class="fondo-img">
+        <div class="fondo-img"> 
             <img src="recursos-img/bici-footer3.jpg" alt="">
         </div>
 
 
-        <main class="main">
-            <div class="main-content">
-               
-                <div>
-
-                    <div  class="panel-articulo">
-                        <div class="header-articulo">
-                            <img src="recursos-img/bici-footer2.jpg" alt="">
-                        </div>
-                        <div class="panel-articulo-title">
-                            <h2>Bicicleta para Montaña</h2>
-                        </div>
-                        <div class="panel-articulo-content">
-                            <h2>Bicicleta para montaña</h2>
-
-                            <p>Descripcion</p>
-
-                            <h4>Caracteristicas</h4>
-                            <table>
-                                <tr>
-                                    <td>Articulo: </td>
-                                    <td>Articulo: </td>
-                                </tr>
-                                <tr>
-                                    <td>Articulo: </td>
-                                    <td>Articulo: </td>
-                                </tr>
-                                <tr>
-                                    <td>Articulo: </td>
-                                    <td>Articulo: </td>
-                                </tr>
-                                <tr>
-                                    <td>Articulo: </td>
-                                    <td>Articulo: </td>
-                                </tr>
-
-                            </table>
-                        </div>
-                        <div class="panel-articulo-footer">
-                            <a href="pedido.html" class="btn-comprar">Comprar</a>
-                            <img src="recursos-img/pagos.jpg" alt="" width="100px">
+        <div class="main-articulo">
+            <div class="panen-content">
+                <div class="panel-articulo">
+                    <div class="panel-articulo-img">
+                        <div class="articulo-img">
+                            imagen de bicicleta
                         </div>
                     </div>
-
-                </div>
-                <div class="panel-right">
-
-                    <div  class="panel-contenido-rigth">
-                         <div class="panel-contenido-header">
-
+                    <div class="panel-articulo-descripcion">
+                        <div class="articulo-title">
+                            lorem ipsum dolor,sit amet consectetur
                         </div>
-                        <div class="panel-contenido-content">
-
+                        <div class="articulo-descripcion">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia tempore hic, molestias veritatis ab architecto quae id earum atque modi officiis praesentium possimus repellat odit ratione maiores cumque molestiae nisi.
                         </div>
-                    </div>
-
+                    </div>         
                 </div>
-
+                <div class="panel-reseña">
+                    <!-- <h1>RESEÑA </h1> -->
+                </div>
             </div>
-        </main>
-
-
-       <?php require_once "php/footer.php"; ?>
-   
+            <div class="panel-recs">
+                </div>
+            </div>
+            
 
         
         
