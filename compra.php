@@ -120,7 +120,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <p>Al concluir con la compra se te enviara un codigo de rastreo. <br> un codigo qr con el que pasaras a la sucursal para recojer</p>
+                                <!-- <p>Al concluir con la compra se te enviara un codigo de rastreo. <br> un codigo qr con el que pasaras a la sucursal para recojer</p> -->
                                 <div class="form-banner-total">
                                     <input type="submit" value="Comprar">
                                 </div>
@@ -134,9 +134,9 @@
         
         </div>
     </div>
-    <div class="fondo-img">
+    <!-- <div class="fondo-img">
         <img src="recursos-img/bici-footer3.jpg" alt="">
-    </div>
+    </div> -->
         
        <script src="js/jquery.js"></script>
        <script src="js/script.js"></script>

@@ -48,9 +48,14 @@
                                                 color: blanco, tamaño 120cm x 50cm
                                             </div>
                                         </div>
+                                        <div class="box-product-confirm">
+                                            <button><img src="recursos-img/img/eliminar.png" alt=""></button>
+                                            <input type="checkbox" name="" id="">
+                                        </div>
                                     </div>
                                     <div class="box-product-price">
-                                        $1,250
+                                        <div>Envio: $120</div>
+                                        $1200
                                     </div>
                                 </div>
                         
@@ -60,11 +65,15 @@
                             <table>
                                 <tr>
                                     <td>Envio:</td>
-                                    <td class="Total" style="text-align:end;">gratis</td>
+                                    <td class="Total" style="text-align:end;">...</td>
+                                </tr>
+                                <tr>
+                                    <td>Articulos:</td>
+                                    <td class="Total" style="text-align:end;">...</td>
                                 </tr>
                                 <tr >
                                     <td>Total:</td>
-                                    <td style="color: green; text-align:end;" >$1,250</td>
+                                    <td style="color: green; text-align:end;" >$0</td>
                                     
                                 </tr>
                                 <tr >
@@ -82,10 +91,10 @@
         
         </div>
     </div>
-    <div class="fondo-img">
+    <!-- <div class="fondo-img">
         <img src="recursos-img/bici-footer3.jpg" alt="">
     </div>
-        
+         -->
        <script src="js/jquery.js"></script>
        <script src="js/script.js"></script>
 </body>

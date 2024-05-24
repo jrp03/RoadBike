@@ -20,11 +20,11 @@
     <?php require_once "php/header.php"; ?>
 
     
-
+<!-- 
         <div class="fondo-img"> 
             <img src="recursos-img/bici-footer3.jpg" alt="">
         </div>
-
+ -->
 
         <div class="main-articulo">
             <div class="panen-content">

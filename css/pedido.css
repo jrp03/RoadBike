@@ -1,3 +1,6 @@
+body{
+    background-color: #252b36;
+}
 .main{
     background: none;
     box-shadow: none;
@@ -51,11 +54,33 @@
     /* height: 100px; */
     padding: 10px;
     border-bottom: 1px solid #ddd;
+    gap: 20px;
 }
 .box-product-info{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    width: 100%;
+}
+.box-product-confirm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.box-product-confirm input{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+} 
+.box-product-confirm button {
+    background:none;
+    border: none;
+    cursor: pointer;
+}
+.box-product-confirm button img{
+    width: 30px;
+    height: 30px;
 }
 
 .box-prodcut-content{
@@ -78,9 +103,10 @@
 
 .box-product-price{
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     font-weight: bold;
     color: green;
+
 }
 
 
