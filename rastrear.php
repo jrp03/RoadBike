@@ -42,7 +42,7 @@
                             <h1>Informacion de tu pedido</h1>
                             <ul>
                                 <li>
-                                    <p>Salio de cedis la primavera con destino a tienda Costa rica</p>
+                                    <p>Salio de cedis </p>
                                     <ol>
                                         <li>Hora salida: 12:20 pm</li>
                                         <li>Hora de llegada: 16:00 pm</li>

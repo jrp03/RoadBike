@@ -141,15 +141,17 @@
                             for ($i = 1; $i <= 7; $i++) {
                         ?>
                         <div class="main-show-box">
-                            <div class="img">
+                            <a class="img" href="articulo.php">
                                 <img src="recursos-img/bici-footer.jpg" alt="">
-                            </div>
+                            </a>
                             <div class="product-info">
                                 <h3>Titulo</h3>
                                 <p>Precio $9.5</p>
                                 <div class="btns-product">
-                                    <a class="btn-buy" href="compra.php">Comprar</a>
-                                    <a class="btn-add" href="carrtio.php">Agregar Al Carrito</a>
+                                    <a class="btn-buy" href="compra.php" title="Comprar">Buy</a>
+                                    <a class="btn-add" href="carrito.php" title="Agregar Al Carrito">
+                                        <img src="recursos-img/img/add-carrito.png" alt="">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -167,7 +169,7 @@
                 </div>
             </div>
             <!-- componentes -->
-            <div>
+            <div id="componentes">
                 <div class="box-title">
                     <h1>Componentes para tú Bicicleta</h1>
                 </div>
@@ -184,8 +186,10 @@
                             <h3>Titulo</h3>
                             <p>Precio $9.5</p>
                             <div class="btns-product">
-                                <a class="btn-buy" href="">Comprar</a>
-                                <a class="btn-add" href="">Agregar Al Carrito</a>
+                                <a class="btn-buy" href="compra.php" title="Comprar">Buy</a>
+                                <a class="btn-add" href="carrito.php" title="Agregar Al Carrito">
+                                    <img src="recursos-img/img/add-carrito.png" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
