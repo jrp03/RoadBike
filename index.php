@@ -138,7 +138,9 @@
                     <div class="main-prodcutos-box">
                         <!-- contenido -->
                         <?php 
-                            for ($i = 1; $i <= 7; $i++) {
+                            $productos = mysqli_query($db, "SELECT * FROM 'articulos' WHERE 'categoria' = 'bicicletas'");
+                            $result = mysqli
+                            for($pro = mysqli_fetch_assoc($productos)){ ?>
                         ?>
                         <div class="main-show-box">
                             <a class="img" href="articulo.php">
@@ -156,7 +158,7 @@
                             </div>
                         </div>
                         <?php
-                            };
+                            }
                         ?>
                         <div class="main-show-box">
                             <div class="product-info">
