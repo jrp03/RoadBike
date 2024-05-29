@@ -1,0 +1,70 @@
+[
+    {
+        "id": 1,
+        "titulo": "GRAVEL | Mountain Bike Everest MTB",
+        "img": "productos/gravel.jpg",
+        "descripcion": [
+            "AERODINÁMICA | Cuadro de aluminio 6061 con cableado interno y acabado mate en dos colores, brinda un diseño aerodinámico y ligero para alcanzar la mayor velocidad.",
+            "TRACCIÓN | Neumáticos KENDA con excelente adherencia para mayor tracción en terrenos irregulares, brindando un paseo más cómodo y con mayor impulso, perfecto tanto para ciudad como las veredas de montaña.",
+            "TRACCIÓN | Neumáticos KENDA con excelente adherencia para mayor tracción en terrenos irregulares, brindando un paseo más cómodo y con mayor impulso, perfecto tanto para ciudad como las veredas de montaña.",
+            "SEGURIDAD | Sus frenos de disco mecánicos y sistema de transmisión 3x7 con 21 velocidades, proporcionan un frenado potente y cambios fáciles de ajustar, permitiéndote ganar velocidad con confianza. Tres tallas disponibles para adaptarse a tu ritmo de vida. Incluye garantía de 3 meses por fallas de fábrica.",
+            "GRAVEL | Descubre la excelencia en cada pedaleo. Nuestras bicicletas combinan rendimiento y estilo, brindándote la libertad de conquistar cualquier terreno con confianza y comodidad. ¡Únete a la experiencia GRAVEL y lleva tus aventuras en bicicleta al siguiente nivel!"
+          ],
+        "precio": "6,093"
+    },
+    {
+        "id": 2,
+        "titulo": "GRAVEL | Mountain Bike Everest MTB " ,
+        "img": "productos/gravel_muntain.jpg",
+        "descipcion:":  [
+            "TODO TERRENO | Diseñada para paseos en senderos y terrenos irregulares, con un cuadro liviano y suspensión delantera con bloqueo para mayor control y comodidad en cualquier terreno. No permitas que nada te detenga en tus aventuras en dos ruedas.",
+            "AERODINÁMICA | Cuadro de aluminio 6061 con cableado interno y acabado mate en dos colores, brinda un diseño aerodinámico y ligero para alcanzar la mayor velocidad.",
+            "TRACCIÓN | Neumáticos KENDA con excelente adherencia para mayor tracción en terrenos irregulares, brindando un paseo más cómodo y con mayor impulso, perfecto tanto para ciudad como las veredas de montaña.",
+            "SEGURIDAD | Sus frenos de disco mecánicos y sistema de transmisión 3x7 con 21 velocidades, proporcionan un frenado potente y cambios fáciles de ajustar, permitiéndote ganar velocidad con confianza. Tres tallas disponibles para adaptarse a tu ritmo de vida. Incluye garantía de 3 meses por fallas de fábrica.",
+            "GRAVEL | Descubre la excelencia en cada pedaleo. Nuestras bicicletas combinan rendimiento y estilo, brindándote la libertad de conquistar cualquier terreno con confianza y comodidad. ¡Únete a la experiencia GRAVEL y lleva tus aventuras en bicicleta al siguiente nivel!"
+          ],
+        "precio": "2,500"
+    },
+    {
+        "id": 3,
+        "titulo": "Bicicleta Mercurio Mtb Kaizer R29 Color Negro Mate",
+        "img": "productos/mercurio.jpg",
+        "descipcion:": [
+            "Lo que tienes que saber de este producto",
+
+            "Género: Sin género",
+            "Con ruedas de entrenamiento: No",
+            "Con pie de apoyo: No",
+            "Tipo de freno delantero: Disco",
+            "Cambios traseros: FALCOM",
+            "Cambios delanteros: Microshift",
+            "Cantidad de velocidades: 21",
+            "Rodado: 29",
+            "Su cuadro de acero soporta un mayor peso y posee una larga durabilidad.",
+            "Suspensión delantera.",
+            "Peso: 15kg."
+        ],
+        "precio": "3,959"
+    },
+    {
+        "id": 4,
+        "titulo": "Bicicleta Mercurio Kaizer Mtb R29 Freno De Disco Negro Rojo Color Verde  ",
+        "img": "productos/mercurio_kaizer.jpg",
+        "descipcion:": [
+            "Lo que tienes que saber de este producto",
+
+            "Género: Sin género",
+            "Con ruedas de entrenamiento: No",
+            "Con pie de apoyo: No",
+            "Tipo de freno delantero: Disco",
+            "Cambios traseros: FALCOM",
+            "Cambios delanteros: Microshift",
+            "Cantidad de velocidades: 21",
+            "Rodado: 29",
+            "Su cuadro de acero soporta un mayor peso y posee una larga durabilidad.",
+            "Suspensión delantera.",
+            "Peso: 15kg."
+        ],
+        "precio": "4,200"
+    }
+]

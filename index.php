@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/footer.css">
+
+
+    <!-- jquery  -->
+    <script src="js/jquery.js"></script>
 </head>
 <body>
         
@@ -55,12 +59,12 @@
                 <div class="main-principal">
                     <div>
                         <div class="box-title">
-                            <h1>Nuestros Productos</h1>
+                            <h1>¡Bienvenidos!</h1>
                         </div>
                         <div class="main-card-box">
                             <div class="box-rigth">
                                 <div class="box-img">
-                                    <img src="recursos-img/bici-footer2.jpg" alt="">
+                                    <img src="recursos-img/Horizontes1.png" alt="">
                                 </div>
                                 <div class="box-content-rigth">
                                     <span class="content-title-b">Nuestros Productos</span>
@@ -117,10 +121,10 @@
                         </div>
                         <div class="box-rigth">
                             <div class="box-img">
-                                <img src="recursos-img/bici-footer2.jpg" alt="">
+                                <img src="recursos-img/Horizontes2.png" alt="">
                             </div>
                             <div class="box-content-rigth">
-                                <span class="content-title-b">Ven a Conocernos</span>
+                                <span class="content-title-b">!Ven a Conocernos¡</span>
                                 <!-- <h3>bicicleta mercurio <a href="">Mas Informacion</a></h3>
                                 <p class="price">$5,000</p>
                                 <div class="btn-rigth"> 
@@ -132,17 +136,13 @@
                     </div>
                 </div>
                 <div>
-                    <div class="box-title">
+                    <div class="box-title" id="nuevo">
                         <h1>Nuestros Productos</h1>
                     </div>
                     <div class="main-prodcutos-box">
+                        <div id="products_list"></div>
                         <!-- contenido -->
-                        <?php 
-                            $productos = mysqli_query($db, "SELECT * FROM 'articulos' WHERE 'categoria' = 'bicicletas'");
-                            $result = mysqli
-                            for($pro = mysqli_fetch_assoc($productos)){ ?>
-                        ?>
-                        <div class="main-show-box">
+                        <!-- <div class="main-show-box">
                             <a class="img" href="articulo.php">
                                 <img src="recursos-img/bici-footer.jpg" alt="">
                             </a>
@@ -157,16 +157,13 @@
                                 </div>
                             </div>
                         </div>
-                        <?php
-                            }
-                        ?>
                         <div class="main-show-box">
                             <div class="product-info">
                                 <h3>Todos los productos recomendados</h3>
-                                <a href="http://">Ver Mas</a>
+                                <a href="http://">Ver Mas</a> -->
                                 <!-- <p>Precio $9.5</p> -->
-                            </div>
-                        </div>
+                            <!-- </div>
+                        </div> -->
                     <!-- contenido -->
                 </div>
             </div>
@@ -177,10 +174,8 @@
                 </div>
                 <div class="main-prodcutos-box">
                 <!-- contenido -->
-                <?php 
-                    for ($i = 1; $i <= 7; $i++) {
-                ?>
-                    <div class="main-show-box">
+
+                    <!-- <div class="main-show-box">
                         <div class="img">
                             <img src="recursos-img/bici-footer.jpg" alt="">
                         </div>
@@ -194,15 +189,17 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
-                <?php }; ?>
-                <div class="main-show-box">
+                    </div> -->
+
+                    <div id="componentes_list"></div>
+
+                <!-- <div class="main-show-box">
                     <div class="product-info">
                         <h3>Todos los componentes para tu Bicicleta</h3>
                         <a href="http://">Ver Mas</a>
-                        <!-- <p>Precio $9.5</p> -->
+                         <p>Precio $9.5</p> -->
                     </div>
-                </div>
+                </div> 
                 <!-- contenido -->
             </div>
         </main>
@@ -210,7 +207,87 @@
             <?php require_once "php/footer.php"; ?>
         </div>        
         
-       <script src="js/jquery.js"></script>
-       <script src="js/script.js"></script>
+        
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // Cargar el archivo JSON usando jQuery
+            $.getJSON('js/list.json', function(data) {
+                // Iterar sobre los datos y crear filas para la tabla
+                $.each(data, function(index, user) {
+                    var element = `
+                    <div class="main-show-box">
+                        <a class="img" href="articulo.php?id=${user.id}">
+                                <img src="${user.img}" alt="">
+                            </a>
+                        <div class="product-info">
+                            <h3>${user.titulo}</h3>
+                            <p>Precio $${user.precio}</p>
+                            <div class="btns-product">
+                                <a class="btn-buy" href="compra.php" title="Comprar">Buy</a>
+                                <a class="btn-add" href="carrito.php" title="Agregar Al Carrito">
+                                    <img src="recursos-img/img/add-carrito.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>`;
+                    // row.append($('<td></td>').text(user.titulo));
+                    // row.append($('<td></td>').text(user.precio));
+                    $('#products_list').append(element);
+                });
+            });
+
+            // Cargar el archivo JSON usando jQuery
+            $.getJSON('js/components.json', function(data) {
+                // Iterar sobre los datos y crear filas para la tabla
+                $.each(data, function(index, user) {
+                    var element = `
+                    <div class="main-show-box">
+                            <a class="img" href="articulo.php?id=${user.id}">
+                            <img src="${user.img}" alt="">
+                            </a>
+                        <div class="product-info">
+                            <h3>${user.titulo}</h3>
+                            <p>Precio $${user.precio}</p>
+                            <div class="btns-product">
+                                <a class="btn-buy " href="compra.php" title="Comprar">Buy</a>
+                                <a class="btn-add add-to-cart "  data-id="${user.id}" href="carrito.php" title="Agregar Al Carrito">
+                                    <img src="recursos-img/img/add-carrito.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>`;
+                    // row.append($('<td></td>').text(user.titulo));
+                    // row.append($('<td></td>').text(user.precio));
+                    $('#componentes_list').append(element);
+
+                });
+
+
+                // Manejar clic en "Agregar al carrito"
+                $('.add-to-cart').on('click', function() {
+                    var productId = $(this).data('id');
+                    addToCart(productId);
+                });
+
+
+            // Función para agregar al carrito
+            function addToCart(id, title, price) {
+                var cart = JSON.parse(localStorage.getItem('cart')) || [];
+                var existingProduct = cart.find(item => item.id === id);
+
+                if (existingProduct) {
+                    existingProduct.quantity += 1;
+                } else {
+                    cart.push({ id: id, title: title, price: price, quantity: 1 });
+                }
+
+                localStorage.setItem('cart', JSON.stringify(cart));
+                displayCart();
+            }
+
+
+            });
+        });
+    </script>
 </body>
 </html>

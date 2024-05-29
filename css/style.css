@@ -232,7 +232,7 @@ main{
 
 
 
-.main-prodcutos-box{
+.main-prodcutos-box, #componentes_list, #products_list{
     padding: 0 10px;
     display: flex;
     flex-direction: row;
@@ -243,15 +243,18 @@ main{
 .main-show-box{
     background-color: #3f3f3f;
     border-radius: 10px;
-    box-shadow:0 0 2px 0 grey;
+    box-shadow: 0 0 2px 0 grey;
     padding: 0 0 10px 0;
     overflow: hidden;
     cursor: pointer;
     width: 250px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
 }
 .main-show-box img {
     width: 250px;
-    height: 150px;
+    height: 180px;
     position: relative;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
@@ -290,4 +293,29 @@ main{
 /* foteer web */
 .info-site{
     background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* rescalar */
+@media screen and (max-width: 1200px){
+    .main-card-box{
+        justify-content: center;
+    }
 }

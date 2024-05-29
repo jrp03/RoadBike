@@ -1,0 +1,61 @@
+[
+    {
+        "id": 11,
+        "titulo": "Desviador Trasero para Bicicleta de montaña",
+        "img": "productos/desviador.jpg",
+        "descipcion:": [
+            "Acerca de este artículo",
+           " Capacidad de envoltura de la cade: 43 dientes, acción del desviador: Top-normal (tradiciol)",
+           " Color del desviador: negro, espaciado de la transmisión de transmisión: Shimano/SR 8, engranaje más grande: 34 dientes",
+            "Desviador de cbios/trasero: Shimano, velocidades: 8 sp. Peso: 326 g"
+        
+        ],
+        "precio": "400"
+    },
+    {
+        "id": 12,
+        "titulo": "Luces para Bicicleta 1000 LM con Luz Trasera Recargable" ,
+        "img": "productos/luces.jpg",
+        "descipcion:":[
+            "Acerca de este artículo",
+
+            "Salida de 1000 lúmenes LED: La luz de la bicicleta es de 1000 lúmenes y luz de color blanco, es lo suficientemente brillante como para ver claramente en la noche, visibilidad a más de 300-500 metros de distancia, divisando obstáculos en la carretera para evitar accidentes.",
+            "Banco de energía incorporado y recargable USB: La nueva versión de luces de bicicleta OIOSEN solo tardan 5 horas en cargarse por completo y tienen un tiempo de funcionamiento de aproximadamente 5-10 horas. También el Power Bank incorporado ayudará a mantener su celular funcionando.",
+            "Rotación de 360 grados y resistencia al agua: Esta linterna de bicicleta permite una juste de 360 grados y puede ajustar esta linterna de bicicleta de montaña en cualquier dirección que desee. Resistente al agua con clasificación IPX5, lo que le permite resistir las adversidades del clima.",
+            "Brillo ajustable y múltiple modos de luz: El luz delantera tiene 3 modos de cambio: Alto / Bajo / Estroboscópico. La luz trasera tiene 5 modos de cambio: Fuerte / Marquesina 1 / Flash / Marquesina 2 / Respiración, el tiempo de uso continuo es de 50 horas. Simplemente haga clic en el botón y seleccione los diferentes modos de iluminación según su preferencia.",
+           " Versátil, Más que una Lámpara de bicicleta: se puede usar como una linterna de emergencia, manténgala dentro de su automóvil, sótano, ático y kit de emergencia."
+        
+        ],
+        "precio": "100"
+    },
+    {
+        "id": 13,
+        "titulo": "de 7/8 velocidades, piñón de bicicleta",
+        "img": "productos/estrella.jpg",
+        "descipcion:": [
+            "Acerca de este artículo",
+
+           " Shimano Rear Cassette CS-HG200-8 12 32T 8 Speed",
+            "Aplicación: la tecnología hueca puede reducir fácilmente el peso, hacer que la conducción sea más ligera. Es adecuado para bicicletas de montaña, vagones de estación, bicicletas plegables. También es una de las mejores opciones para regalos",
+            "Rendimiento: el material de la pieza de dientes está hecho de placa de acero de alta resistencia, que puede obtener una experiencia de cambio suave y fácil incluso bajo carga. Las ruedas del volante tienen especificaciones claras del número de dientes, que actúan como una rueda guía precisa, haciendo que la conducción sea más suave"
+        
+        ],
+        "precio": "300"
+    },
+    {
+        "id": 14,
+        "titulo": "Neumáticos de bicicleta plegables de 20 pulgadas, 26 pulgadas, 20 x 2.125, 26 x 2.125 pulgadas",
+        "img": "productos/neumatico_bici.jpg",
+        "descipcion:": [
+           " Acerca de este artículo",
+
+           " Taño: neumático de bicicleta de 20 x 2.1 pulgadas. Inflar a 40 P.S.I. ETRTO: 57-406 mm. Adecuado ruedas de 26 pulgadaso reemplazo neumáticos antiguos cuyo taño es de 20 x 1.75 1.95 2.0 2.10 2.125.",
+            "E neumático de bicicleta de 20 x 2.125 e diseñado para montar sobre u variedad de terrenos con un patrón equilibrado de resistencia a la rodadura de agarre excelente tracción y rendimiento de dreje.",
+            "Duradero, resistente al desgaste, resistencia a la temperatura y a la intemperie.",
+            "Nuestro neumático plegable para bicicleta es adecuado para bicicletas de montaña, MTB, playa, cruiser, bicicleta urbana o bicicletas de viajero, bicicletas híbridas",
+            "Hecho de goma natural de alta calidad que tiene un buen rendimiento de absorción de impactos"
+        
+        ],
+        "precio": "390"
+    }
+]

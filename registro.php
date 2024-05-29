@@ -40,9 +40,6 @@
         <label for="Mujer">
             <input id="Mujer" type="checkbox"> Mujer
         </label>
-        <label for="Personalido">
-            <input id="Personalido" type="checkbox"> Personalizado
-        </label>
         </div>
         <div class="log-bt">
             <button type="submit" class="bt"> registrarme</button>
@@ -55,5 +52,26 @@
         </div>
     </div>
     
+    <script type="text/javascript">
+        var Hombre = document.getElementById("Hombre");
+        var Mujer = document.getElementById("Mujer");
+
+        Hombre.addEventListener("click", ()=>{
+            if(Mujer.checked == true){
+                // alert("error");
+                Mujer.checked = false;
+                Hombre.checked = true;
+            }else{
+
+            }
+        });
+        Mujer.addEventListener("click", ()=>{
+            if(Hombre.checked == true){
+                // alert("error");
+                Hombre.checked = false;
+                Mujer.checked = true;
+            }
+        });
+    </script>   
 </body>
 </html>
